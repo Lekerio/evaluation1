@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'AnimeAce';
+  src: url("/assets/fonts/animeace2bb_ot/animeace2_reg.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #3b3b3b;
-  margin: 0;
-  padding: 0;
+}
+
+header {
+  font-family: AnimeAce, sans-serif;
+}
+
+nav li a:hover {
+  color: #e46921 !important;
+  font-size: large;
+  transition: 200ms;
+}
+
+.navbar-brand:hover {
+  font-size: x-large;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=stylesheet.css.map */
