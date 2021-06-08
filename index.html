@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
     <title>AssoManga</title>
   </head>
-  <body>
-    <header>
+  <body class="p-0">
+    <header class="">
       <nav
         class="
           navbar navbar-light
@@ -56,7 +56,53 @@
           </div>
         </div>
       </nav>
+      <div aria-label="breadcrumb">
+        <ol class="breadcrumb m-1 rounded d-none d-lg-inline-flex">
+          <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+          <li class="breadcrumb-item">a</li>
+        </ol>
+      </div>
     </header>
+    <aside>
+      <div id="carouselIndicators" class="carousel slide container-lg p-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/carousel1.jpg" class="d-block w-100" alt="image carousel 1">
+              <div class="carousel-caption d-md-block">
+                <h1>AssoManga</h1>
+                <p>Bienvenue sur le site de notre association ! <br>Nous cherchons à promouvoir la culture japonaise en France &#128512</p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/carousel2.jpg" class="d-block w-100" alt="image carousel 2">
+          <div class="carousel-caption d-md-block">
+            <h2>Des ateliers pour tous</h2>
+            <p>Du dessin au karaoké en passant par les <br>jeux de cartes japonais, et la projection d'anime pour tous!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/carousel3.jpg" class="d-block w-100" alt="image carousel 3">
+          <div class="carousel-caption d-md-block">
+            <h2>Une culture à découvrir</h2>
+            <p>Une bibliothèque pleine juste pour vous, <br> pour les petits comme les grands!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Précédent</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+      </button>
+    </aside>
 
     <main></main>
 
