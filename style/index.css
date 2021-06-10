@@ -1,0 +1,16 @@
+article h2 {
+  font-family: AnimeAce, sans-serif;
+}
+article p:nth-last-child(1) {
+  text-align: center;
+}
+article p {
+  text-align: justify;
+}
+article p button:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+article img {
+  max-width: 300px;
+}
