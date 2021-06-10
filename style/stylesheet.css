@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'AnimeAce';
+  font-family: "AnimeAce";
   src: url("/assets/fonts/animeace2bb_ot/animeace2_reg.otf");
   font-weight: normal;
   font-style: normal;
@@ -7,9 +7,14 @@
 
 body {
   background-color: #3b3b3b;
+  background-image: url(/assets/bgtry2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-header {
+header,
+article h2 {
   font-family: AnimeAce, sans-serif;
 }
 
@@ -22,5 +27,22 @@ nav li a:hover {
 .navbar-brand:hover {
   font-size: x-large;
   transition: 0.3s;
+}
+
+article p:nth-last-child(1) {
+  text-align: center;
+}
+
+article p {
+  text-align: justify;
+}
+
+article p button:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+article img {
+  max-width: 300px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
