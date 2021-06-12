@@ -39,6 +39,10 @@ footer ul li a img:hover {
 footer {
   height: 150px;
 }
+footer p {
+  margin-bottom:0;
+}
 
 /* ---END OF FOOTER DESIGN--- */
+
 /*# sourceMappingURL=stylesheet.css.map */
