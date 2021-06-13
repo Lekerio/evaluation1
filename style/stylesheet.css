@@ -1,13 +1,13 @@
 @font-face {
   font-family: "AnimeAce";
-  src: url("/assets/fonts/animeace2bb_ot/animeace2_reg.otf");
+  src: url(../assets/fonts/animeace2bb_ot/animeace2_reg.otf);
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-color: #3b3b3b;
-  background-image: url(/assets/bgtry2.jpg);
+  background-image: url("../assets/bgtry2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -44,5 +44,3 @@ footer p {
 }
 
 /* ---END OF FOOTER DESIGN--- */
-
-/*# sourceMappingURL=stylesheet.css.map */
