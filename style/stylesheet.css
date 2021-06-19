@@ -43,4 +43,21 @@ footer p {
   margin-bottom:0;
 }
 
+@media screen and (max-width: 425px){
+  footer p {
+    font-size:smaller;
+  }
+  footer img {
+    width:80%;
+  }
+
+  header .navbar-brand span{
+    display:none;
+  }
+
+  h2 {
+    overflow:hidden;
+  }
+  
+}
 /* ---END OF FOOTER DESIGN--- */
